@@ -1,0 +1,23 @@
+{
+   "name": "pages-tunnel",
+   "version": "1.0.0",
+   "type": "module",
+   "private": true,
+   "scripts": {
+      "dev": "wrangler pages dev public --local-protocol=https",
+      "test": "vitest run"
+   },
+   "devDependencies": {
+      "@cloudflare/workers-types": "4",
+      "prettier": "3",
+      "vitest": "2",
+      "wrangler": "3"
+   },
+   "prettier": {
+      "printWidth": 100,
+      "semi": false,
+      "singleQuote": true,
+      "tabWidth": 3
+   },
+   "license": "MIT"
+}
